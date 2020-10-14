@@ -2,8 +2,8 @@
 The repository contains indexes to Zaborowski's treatise for the
 djview4poliqarp program.
 
-The indexes refer to the first two editions of Ortographia seu modus
-  recte scribendi et legendi Polonicum idioma quam utilissimus,
+The indexes refer to the first two editions of *Ortographia seu modus
+  recte scribendi et legendi Polonicum idioma quam utilissimus*,
   Zaborowski's treatise in Latin on Polish spelling, coming
   respectively from Wielkopolska Digital Library and Polona (a website
   created by the National Library of Poland). The DjVu versions of the
