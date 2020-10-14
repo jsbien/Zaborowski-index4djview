@@ -19,7 +19,7 @@ https://www.researchgate.net/publication/341930612.
   
   The indexes are based on the tentative transcription prepared with the help of [Transkribus](http://https://transkribus.eu).
   
-  For more information please consult [wiki](wiki).
+  For more information please consult [wiki](https://github.com/jsbien/Zaborowski-index4djview/wiki).
   
 ***  
   
@@ -42,8 +42,9 @@ adresem https://www.researchgate.net/publication/341930612
 
 Wstępna transkrypcja traktatu została przygotowana za pomocą systemu [Transkribus](http://https://transkribus.eu).
 
-Dodatkowe informacje znajdują się w [wik]i(wiki/Wiki---wersja-polskojęzyczna)
+Dodatkowe informacje znajdują się w [wiki](https://github.com/jsbien/Zaborowski-index4djview/wiki/Wiki---wersja-polskoj%C4%99zyczna).
 
+***
 
 ![djvuew4poliqarp: index of abbreviations](screenshots/abbreviation.png?raw=true "Index of abbreviations")
 ![djvuew4poliqarp: index of abbreviated words](screenshots/abbreviated.png?raw=true "Index of abbreviated words")
