@@ -40,7 +40,8 @@ Wykorzystanie standardu Unicode do kodowania transkrypcji dokumentów i
 indeksów jest omówione w artykule, które preprint jest dostępny pod
 adresem https://www.researchgate.net/publication/341930612
 
-Wstępna transkrypcja traktatu została przygotowana za pomocą systemu [Transkribus](http://https://transkribus.eu).
+Indeksy bazują na wstępnej transkrypcji traktatu przygotowanej
+za pomocą systemu [Transkribus](http://https://transkribus.eu).
 
 Dodatkowe informacje znajdują się w [wiki](https://github.com/jsbien/Zaborowski-index4djview/wiki/Wiki---wersja-polskoj%C4%99zyczna).
 
