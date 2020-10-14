@@ -16,12 +16,11 @@ The indexes refer to the first two editions of Ortographia seu modus
 The use of Unicode to encode the documents and indexes is discussed in
 Polish in https://www.researchgate.net/publication/341930612.
   
-  The indexes has been created with the help of Transkribus
-  (http://https://transkribus.eu).
+  The indexes are based on the tentative transcription prepared with the help of [Transkribus](http://https://transkribus.eu).
   
   For more information please consult wiki.
   
-  
+***  
   
 
 
