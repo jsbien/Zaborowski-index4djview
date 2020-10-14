@@ -1,0 +1,56 @@
+# Edit it and store it with command:
+#   $ djvused foo.djvu -f thisfile -s
+# The following line is the djvused command
+# to set the outline and the rest is the outline
+set-outline
+(bookmarks
+ ("Foliacja"
+  "#1"
+  ("1 [A]"
+   "#1")
+  ("1v [Av]"
+   "#2")
+  ("2 [A2"
+   "#3")
+  ("2v [A2]"
+   "#4")
+  ("3 [A3"
+   "#5")
+  ("3v [A3]"
+   "#6")
+  ("4 [A4"
+   "#7")
+  ("4v [A4]"
+   "#8")
+  ("5 B"
+   "#9")
+  ("5v [Bv]"
+   "#10")
+  ("6 [B1]"
+   "#11")
+  ("6v [B1v]"
+   "#12")
+  ("7 [B2]"
+   "#13")
+  ("7v [B2v]"
+   "#14")
+  ("8 [B3]"
+   "#15")
+  ("8v [B3v]"
+   "#16")
+  ("9 C"
+   "#17")
+  ("9v [Cv]"
+   "#18")
+  ("10 [C1]"
+   "#19")
+  ("10v [C1v]"
+   "#20")
+  ("11 [C2]"
+   "#21")
+  ("11v [C2v]"
+   "#22")
+  ("12 [C3]"
+   "#23")
+  )
+)

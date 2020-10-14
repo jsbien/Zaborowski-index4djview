@@ -1,0 +1,14 @@
+# Edit it and store it with command:
+#   $ djvused foo.djvu -f thisfile -s
+# The following line is the djvused command
+# to set the metadana and the rest is the metadata
+# (note the point in the last line)
+select
+set-meta
+Author "Stanisław Zaborowski"
+Title "Ortographia seu modus recte scribendi et legendi Polonicum idioma quam utilissimus"
+Publisher "Haller"
+Year "1518"
+Note "https://polona.pl/item/5158973 (converted to DjVu by Janusz S. Bień in 2020)"
+URL "https://github.com/jsbien/Zaborowski-index4djview"
+.
