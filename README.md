@@ -1,6 +1,6 @@
 # Zaborowski-index4djview
-The repository contains indexes to Zaborowski's treatise for the
-djview4poliqarp program.
+The repository contains brachigraphic abbreviation indexes to
+Zaborowski's treatise for the djview4poliqarp program.
 
 The indexes refer to the first two editions of *Ortographia seu modus
   recte scribendi et legendi Polonicum idioma quam utilissimus*,
@@ -23,7 +23,8 @@ https://www.researchgate.net/publication/341930612.
   
 ***  
   
-Repozytorium zawiera indeksy do traktatu Zaborowskiego dla programu djview4poliqarp.
+Repozytorium zawiera indeksy skrótów brachygraficznych do traktatu
+Zaborowskiego dla programu djview4poliqarp.
 
 Indeksy odnoszą się do dwóch pierwszych wydań łacińskiego traktatu
 *Ortografia, czyli sposób poprawnego pisania i czytania języka
