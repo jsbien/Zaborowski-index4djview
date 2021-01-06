@@ -1,31 +1,31 @@
-#grep & ../ZaborowskiA.csv > ../characters/u0026-amp-A.csv
-grep ĳ ../ZaborowskiA.csv > ../characters/u0133-ij-A.csv
-grep ȋ ../ZaborowskiA.csv > ../characters/u020B-ib-A.csv
-grep ́ ../ZaborowskiA.csv > ../characters/u0301-acute-A.csv
-grep ̃ ../ZaborowskiA.csv > ../characters/u0303-tilde-A.csv
-grep ̄ ../ZaborowskiA.csv > ../characters/u0304-macron-A.csv
-grep ̇ ../ZaborowskiA.csv > ../characters/u0307-dot-A.csv
-grep ̈ ../ZaborowskiA.csv > ../characters/u0308-diaeresis-A.csv
-grep ᷑ ../ZaborowskiA.csv > ../characters/u1DD1-ur-A.csv
-grep ⁊ ../ZaborowskiA.csv > ../characters/u204A-tet-A.csv
-grep ↄ ../ZaborowskiA.csv > ../characters/u2184-cr-A.csv
-grep ꝉ ../ZaborowskiA.csv > ../characters/uA749-lhs-A.csv
-grep ꝑ ../ZaborowskiA.csv > ../characters/uA751-psd-A.csv
-grep ꝓ ../ZaborowskiA.csv > ../characters/uA753-pf-A.csv
-grep ꝗ ../ZaborowskiA.csv > ../characters/uA757-qsd-A.csv
-grep ꝙ ../ZaborowskiA.csv > ../characters/uA759-qds-A.csv
-grep ꝛ ../ZaborowskiA.csv > ../characters/uA75B-rr-A.csv
-grep ꝝ ../ZaborowskiA.csv > ../characters/uA75D-rumr-A.csv
-grep ꝫ ../ZaborowskiA.csv > ../characters/uA76B-et-A.csv
-grep ꝭ ../ZaborowskiA.csv > ../characters/uA76D-is-A.csv
-grep ꝰ ../ZaborowskiA.csv > ../characters/uA770-us-A.csv
-grep ꝺ ../ZaborowskiA.csv > ../characters/uA77A-insulard-A.csv
-grep  ../ZaborowskiA.csv > ../characters/uE8B7-lonsfM-A.csv
-grep  ../ZaborowskiA.csv > ../characters/uE8BF-ligature_qetM-A.csv
-grep  ../ZaborowskiA.csv > ../characters/uEBA3-ligature_longslM-A.csv
-grep  ../ZaborowskiA.csv > ../characters/uEBA6-ligature_longslongsM-A.csv
-grep  ../ZaborowskiA.csv > ../characters/uEEC5-ligature_ctM-A.csv
-grep  ../ZaborowskiA.csv > ../characters/uEED6-ligature_ppM-A.csv
-grep  ../ZaborowskiA.csv > ../characters/uEED7-ligature_ppfM-A.csv
-grep ﬅ ../ZaborowskiA.csv > ../characters/uFB05-ligature_longst-A.csv
-grep ﬆ ../ZaborowskiA.csv > ../characters/uFB06-ligature_st-A.csv
+grep -P ^[^\;]*\& ../ZaborowskiA.csv |sed -r 's/;;/;U+0026 AMPERSAND;/' > ../characters/u0026-amp-A.csv
+grep ĳ ../ZaborowskiA.csv |sed -r 's/;;/;U+0123 LATIN SMALL LIGATURE IJ;/' > ../characters/u0133-ij-A.csv
+grep ȋ ../ZaborowskiA.csv |sed -r 's/;;/;U+020B LATIN SMALL LETTER I WITH INVERTED BREVE;/' > ../characters/u020B-ib-A.csv
+grep ́ ../ZaborowskiA.csv |sed -r 's/;;/;U+0301 COMBINING ACUTE ACCENT;/' > ../characters/u0301-acute-A.csv
+grep ̃ ../ZaborowskiA.csv |sed -r 's/;;/;U+0303 COMBINING TILDE;/' > ../characters/u0303-tilde-A.csv
+grep ̄ ../ZaborowskiA.csv |sed -r 's/;;/;U+0304 COMBINING MACRON;/' > ../characters/u0304-macron-A.csv
+grep ̇ ../ZaborowskiA.csv |sed -r 's/;;/;U+0307 COMBINING DOT ABOVE;/' > ../characters/u0307-dot-A.csv
+grep ̈ ../ZaborowskiA.csv |sed -r 's/;;/;U+0308 COMBINING DIAERESIS;/' > ../characters/u0308-diaeresis-A.csv
+grep ᷑ ../ZaborowskiA.csv |sed -r 's/;;/;U+1DD1 COMBINING UR ABOVE;/' > ../characters/u1DD1-ur-A.csv
+grep ⁊ ../ZaborowskiA.csv |sed -r 's/;;/;U+204A TIRONIAN SIGN ET;/' > ../characters/u204A-tet-A.csv
+grep ↄ ../ZaborowskiA.csv |sed -r 's/;;/;U+2184 LATIN SMALL LETTER REVERSED C;/' > ../characters/u2184-cr-A.csv
+grep ꝉ ../ZaborowskiA.csv |sed -r 's/;;/;U+A749 LATIN SMALL LETTER L WITH HIGH STROKE;/' > ../characters/uA749-lhs-A.csv
+grep ꝑ ../ZaborowskiA.csv |sed -r 's/;;/;U+A751 LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER;/' > ../characters/uA751-psd-A.csv
+grep ꝓ ../ZaborowskiA.csv |sed -r 's/;;/;U+A753 LATIN SMALL LETTER P WITH FLOURISH;/' > ../characters/uA753-pf-A.csv
+grep ꝗ ../ZaborowskiA.csv |sed -r 's/;;/;U+A757 LATIN SMALL LETTER Q WITH STROKE THROUGH DESCENDER;/' > ../characters/uA757-qsd-A.csv
+grep ꝙ ../ZaborowskiA.csv |sed -r 's/;;/;U+A759 LATIN SMALL LETTER Q WITH DIAGONAL STROKE;/' > ../characters/uA759-qds-A.csv
+grep ꝛ ../ZaborowskiA.csv |sed -r 's/;;/;U+A758 LATIN SMALL LETTER R ROTUNDA;/' > ../characters/uA75B-rr-A.csv
+grep ꝝ ../ZaborowskiA.csv |sed -r 's/;;/;U+A75D LATIN SMALL LETTER RUM ROTUNDA;/' > ../characters/uA75D-rumr-A.csv
+grep ꝫ ../ZaborowskiA.csv |sed -r 's/;;/;U+A76B LATIN SMALL LETTER ET;/' > ../characters/uA76B-et-A.csv
+grep ꝭ ../ZaborowskiA.csv |sed -r 's/;;/;U+A76D LATIN SMALL LETTER IS;/' > ../characters/uA76D-is-A.csv
+grep ꝰ ../ZaborowskiA.csv |sed -r 's/;;/;U+A770 MODIFIER LETTER US;/' > ../characters/uA770-us-A.csv
+grep ꝺ ../ZaborowskiA.csv |sed -r 's/;;/;U+A77A LATIN SMALL LETTER INSULAR D;/' > ../characters/uA77A-insulard-A.csv
+grep  ../ZaborowskiA.csv |sed -r 's/;;/;M+E8B7 LATIN SMALL LETTER LONG S WITH FLOURISH [MUFI 4.0];/' > ../characters/uE8B7-lonsfM-A.csv
+grep  ../ZaborowskiA.csv |sed -r 's/;;/;M+E8BF LATIN SMALL LETTER Q LIGATED WITH FINAL ET [MUFI 4.0];/' > ../characters/uE8BF-ligature_qetM-A.csv
+grep  ../ZaborowskiA.csv |sed -r 's/;;/;M+EBA3 LATIN SMALL LIGATURE LONG S L [MUFI 4.0];/' > ../characters/uEBA3-ligature_longslM-A.csv
+grep  ../ZaborowskiA.csv |sed -r 's/;;/;M+EBA6 LATIN SMALL LIGATURE LONG S LONG S [MUFI 4.0];/' > ../characters/uEBA6-ligature_longslongsM-A.csv
+grep  ../ZaborowskiA.csv |sed -r 's/;;/;M+EEC5 LATIN SMALL LIGATURE CT [MUFI 4.0];/' > ../characters/uEEC5-ligature_ctM-A.csv
+grep  ../ZaborowskiA.csv |sed -r 's/;;/;M+EED6 LATIN SMALL LIGATURE PP [MUFI 4.0];/' > ../characters/uEED6-ligature_ppM-A.csv
+grep  ../ZaborowskiA.csv |sed -r 's/;;/;M+EED7 LATIN SMALL LIGATURE PP WITH FLOURISH [MUFI 4.0];/' > ../characters/uEED7-ligature_ppfM-A.csv
+grep ﬅ ../ZaborowskiA.csv |sed -r 's/;;/;U+FB05 LATIN SMALL LIGATURE LONG S T  [MUFI 4.0];/' > ../characters/uFB05-ligature_longst-A.csv
+grep ﬆ ../ZaborowskiA.csv |sed -r 's/;;/;U+FB06 LATIN SMALL LIGATURE S T  [MUFI 4.0];/' > ../characters/uFB06-ligature_st-A.csv
