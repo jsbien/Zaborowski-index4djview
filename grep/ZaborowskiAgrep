@@ -16,7 +16,7 @@ grep ꝗ ../ZaborowskiA.csv > ../characters/uA757-qsd-A.csv
 grep ꝙ ../ZaborowskiA.csv > ../characters/uA759-qds-A.csv
 grep ꝛ ../ZaborowskiA.csv > ../characters/uA75B-rr-A.csv
 grep ꝝ ../ZaborowskiA.csv > ../characters/uA75D-rumr-A.csv
-grep ꝫ ../ZaborowskiA.csv > ../characters/uA76B-is-A.csv
+grep ꝫ ../ZaborowskiA.csv > ../characters/uA76B-et-A.csv
 grep ꝭ ../ZaborowskiA.csv > ../characters/uA76D-is-A.csv
 grep ꝰ ../ZaborowskiA.csv > ../characters/uA770-us-A.csv
 grep ꝺ ../ZaborowskiA.csv > ../characters/uA77A-insulard-A.csv
