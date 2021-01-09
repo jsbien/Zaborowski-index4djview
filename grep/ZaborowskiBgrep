@@ -1,4 +1,5 @@
 grep -P ^[^\;]*\& ../ZaborowskiB.csv |sed -r 's/;;/;U+0026 AMPERSAND;/' > ../characters/u0026-amp-B.csv
+grep ę ../ZaborowskiA.csv |sed -r 's/;;/;U+0119 LATIN SMALL LETTER E WITH OGONEK;/' > ../characters/u0119-eog-A.csv
 grep ĳ ../ZaborowskiB.csv |sed -r 's/;;/;U+0123 LATIN SMALL LIGATURE IJ;/' > ../characters/u0133-ij-B.csv
 grep ȋ ../ZaborowskiB.csv |sed -r 's/;;/;U+020B LATIN SMALL LETTER I WITH INVERTED BREVE;/' > ../characters/u020B-ib-B.csv
 grep ʒ ../ZaborowskiB.csv |sed -r 's/;;/;U+0292 LATIN SMALL LETTER EZH;/'> ../characters/u0292-ezh-B.csv
