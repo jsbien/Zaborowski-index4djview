@@ -1,0 +1,2 @@
+grep ᷑ ../ZaborowskiB.csv |sed -r 's/;;/;U+1DD1 COMBINING UR ABOVE;/' > ../characters/u1DD1-ur-B.csv
+grep t᷑ ../ZaborowskiB.csv |sed -r 's/;;/;t U+1DD1 COMBINING UR ABOVE;/' > ../characters/u0074u1DD1-ur-B.csv
