@@ -1,1 +1,0 @@
-grep ̈ ../ZaborowskiA.csv |sed -r 's/;;/;U+0308 COMBINING DIAERESIS;/' > ../characters/u0308-diaeresis-A.csv
