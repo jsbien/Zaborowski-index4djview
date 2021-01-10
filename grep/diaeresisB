@@ -1,0 +1,8 @@
+grep ̈ ../ZaborowskiB.csv |sed -r 's/;;/;U+0308 COMBINING DIAERESIS;/' > ../characters/u0308-diaeresis-B.csv
+grep ꝫ̈ ../ZaborowskiB.csv |sed -r 's/;;/;ꝫ U+0308 COMBINING DIAERESIS;/' > ../characters/uA76Bu0308-diaeresisET-B.csv
+grep ä ../ZaborowskiB.csv |sed -r 's/;;/;a U+0308 COMBINING DIAERESIS;/' > ../characters/u0061Bu0308-diaeresisA-B.csv
+grep ̈ ../ZaborowskiB.csv |sed -r 's/;;/; U+0308 COMBINING DIAERESIS;/' > ../characters/uE8BFu0308-diaeresisQET-B.csv
+grep q̈ ../ZaborowskiB.csv |sed -r 's/;;/;q U+0308 COMBINING DIAERESIS;/' > ../characters/u0071u0308-diaeresisQ-B.csv
+grep ü ../ZaborowskiB.csv |sed -r 's/;;/;u U+0308 COMBINING DIAERESIS;/' > ../characters/u0075u0308-diaeresisU-B.csv
+grep c̈ ../ZaborowskiB.csv |sed -r 's/;;/;c U+0308 COMBINING DIAERESIS;/' > ../characters/u0063u0308-diaeresisU-B.csv
+grep ë ../ZaborowskiB.csv |sed -r 's/;;/;e U+0308 COMBINING DIAERESIS;/' > ../characters/u0065u0308-diaeresisU-B.csv
