@@ -1,0 +1,7 @@
+grep ̇ ../ZaborowskiB.csv |sed -r 's/;;/;U+0307 COMBINING DOT ABOVE;/' > ../characters/u0307-dot-B.csv
+grep q̇ ../ZaborowskiB.csv |sed -r 's/;;/;q U+0307 COMBINING DOT ABOVE;/' > ../characters/u0071u0307-dotQ-B.csv
+grep ꝺ̇ ../ZaborowskiB.csv |sed -r 's/;;/;ꝺ U+0307 COMBINING DOT ABOVE;/' > ../characters/uA77Au0307-dotDi-B.csv
+grep ṗ ../ZaborowskiB.csv |sed -r 's/;;/;p U+0307 COMBINING DOT ABOVE;/' > ../characters/u0070u0307-dotP-B.csv
+grep ṙ ../ZaborowskiB.csv |sed -r 's/;;/;r U+0307 COMBINING DOT ABOVE;/' > ../characters/u0072u0307-dotR-B.csv
+grep v̇ ../ZaborowskiB.csv |sed -r 's/;;/;v U+0307 COMBINING DOT ABOVE;/' > ../characters/u0076u0307-dotV-B.csv
+
