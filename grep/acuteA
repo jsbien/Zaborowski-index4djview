@@ -1,0 +1,2 @@
+grep ́ ../ZaborowskiA.csv |sed -r 's/;;/;U+0301 COMBINING ACUTE ACCENT;/' > ../characters/u0301-acute-A.csv
+grep ú ../ZaborowskiA.csv |sed -r 's/;;/;u U+0301 COMBINING ACUTE ACCENT;/' > ../characters/u0075u0301-acute-A.csv
