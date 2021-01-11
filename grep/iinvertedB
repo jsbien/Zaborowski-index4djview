@@ -1,0 +1,1 @@
+grep ȋ ../ZaborowskiB.csv |sed -r 's/;;/;U+020B LATIN SMALL LETTER I WITH INVERTED BREVE;/' > ../characters/u020B-iinvert-B.csv
