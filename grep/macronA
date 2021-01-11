@@ -3,7 +3,7 @@ grep q̄ ../ZaborowskiA.csv |sed -r 's/;;/;q U+0304 COMBINING MACRON;/' > ../cha
 grep ē ../ZaborowskiA.csv |sed -r 's/;;/;e U+0304 COMBINING MACRON;/' > ../characters/\u0065u0304-macronE-A.csv
 grep ū ../ZaborowskiA.csv |sed -r 's/;;/;u U+0304 COMBINING MACRON;/' > ../characters/\u0075u0304-macronU-A.csv
 grep ī ../ZaborowskiA.csv |sed -r 's/;;/;i U+0304 COMBINING MACRON;/' > ../characters/\u0069u0304-macronI-A.csv
-grep n̄ ../ZaborowskiA.csv |sed -r 's/;;/;n U+0304 COMBINING MACRON;/' > ../characters/\u0069u0304-macronN-A.csv
+grep n̄ ../ZaborowskiA.csv |sed -r 's/;;/;n U+0304 COMBINING MACRON;/' > ../characters/\u006Eu0304-macronN-A.csv
 grep ō ../ZaborowskiA.csv |sed -r 's/;;/;o U+0304 COMBINING MACRON;/' > ../characters/\u006Fu0304-macronO-A.csv
 grep p̄ ../ZaborowskiA.csv |sed -r 's/;;/;p U+0304 COMBINING MACRON;/' > ../characters/\u0070u0304-macronP-A.csv
 grep ā ../ZaborowskiA.csv |sed -r 's/;;/;a U+0304 COMBINING MACRON;/' > ../characters/\u0061u0304-macronA-A.csv
