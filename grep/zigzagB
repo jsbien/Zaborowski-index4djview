@@ -1,2 +1,2 @@
-grep ̇ ../ZaborowskiA.csv |sed -r 's/;;/;M+F1C8 COMBINING ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM [MUFI 4.0];/' > ../characters/uF1C8-dot-A.csv
-grep e ../ZaborowskiA.csv |sed -r 's/;;/;e M+F1C8 COMBINING ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM [MUFI 4.0];/' > ../characters/u0065uF1C8-dot-A.csv
+grep ̇ ../ZaborowskiA.csv |sed -r 's/;;/;M+F1C8 COMBINING ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM [MUFI 4.0];/' > ../characters/uF1C8-zigzag-A.csv
+grep e ../ZaborowskiA.csv |sed -r 's/;;/;e M+F1C8 COMBINING ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM [MUFI 4.0];/' > ../characters/u0065uF1C8-zigzagE-A.csv
