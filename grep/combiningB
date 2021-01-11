@@ -1,0 +1,32 @@
+grep t᷑ ../ZaborowskiB.csv |sed -r 's/;;/;t U+1DD1 COMBINING UR ABOVE;/' > ../characters/u0074u1DD1-ur-B.csv
+grep ꝫ̈ ../ZaborowskiB.csv |sed -r 's/;;/;ꝫ U+0308 COMBINING DIAERESIS;/' > ../characters/uA76Bu0308-diaeresisET-B.csv
+grep ä ../ZaborowskiB.csv |sed -r 's/;;/;a U+0308 COMBINING DIAERESIS;/' > ../characters/u0061u0308-diaeresisA-B.csv
+grep ̈ ../ZaborowskiB.csv |sed -r 's/;;/; U+0308 COMBINING DIAERESIS;/' > ../characters/uE8BFu0308-diaeresisQET-B.csv
+grep q̈ ../ZaborowskiB.csv |sed -r 's/;;/;q U+0308 COMBINING DIAERESIS;/' > ../characters/u0071u0308-diaeresisQ-B.csv
+grep ü ../ZaborowskiB.csv |sed -r 's/;;/;u U+0308 COMBINING DIAERESIS;/' > ../characters/u0075u0308-diaeresisU-B.csv
+grep c̈ ../ZaborowskiB.csv |sed -r 's/;;/;c U+0308 COMBINING DIAERESIS;/' > ../characters/u0063u0308-diaeresisU-B.csv
+grep ë ../ZaborowskiB.csv |sed -r 's/;;/;e U+0308 COMBINING DIAERESIS;/' > ../characters/u0065u0308-diaeresisU-B.csv
+grep q̄ ../ZaborowskiB.csv |sed -r 's/;;/;q U+0304 COMBINING MACRON;/' > ../characters/\u0071u0304-macronQ-B.csv
+grep ē ../ZaborowskiB.csv |sed -r 's/;;/;e U+0304 COMBINING MACRON;/' > ../characters/\u0065u0304-macronE-B.csv
+grep ū ../ZaborowskiB.csv |sed -r 's/;;/;u U+0304 COMBINING MACRON;/' > ../characters/\u0075u0304-macronU-B.csv
+grep ī ../ZaborowskiB.csv |sed -r 's/;;/;i U+0304 COMBINING MACRON;/' > ../characters/\u0069u0304-macronI-B.csv
+grep n̄ ../ZaborowskiB.csv |sed -r 's/;;/;n U+0304 COMBINING MACRON;/' > ../characters/\u0069u0304-macronN-B.csv
+grep ō ../ZaborowskiB.csv |sed -r 's/;;/;o U+0304 COMBINING MACRON;/' > ../characters/\u006Fu0304-macronO-B.csv
+grep p̄ ../ZaborowskiB.csv |sed -r 's/;;/;p U+0304 COMBINING MACRON;/' > ../characters/\u0070u0304-macronP-B.csv
+grep ā ../ZaborowskiB.csv |sed -r 's/;;/;a U+0304 COMBINING MACRON;/' > ../characters/\u0061u0304-macronA-B.csv
+grep r̄ ../ZaborowskiB.csv |sed -r 's/;;/;r U+0304 COMBINING MACRON;/' > ../characters/\u0072u0304-macronA-B.csv
+grep ꝛ̄ ../ZaborowskiB.csv |sed -r 's/;;/;ꝛ U+0304 COMBINING MACRON;/' > ../characters/\uA75Bu0304-macronRr-B.csv
+grep m̄ ../ZaborowskiB.csv |sed -r 's/;;/;m U+0304 COMBINING MACRON;/' > ../characters/\u006Du0304-macronM-B.csv
+grep t́́ ../ZaborowskiB.csv |sed -r 's/;;/;t U+0301 COMBINING ACUTE ACCENT;/' > ../characters/u0074u0301-acute-B.csv
+grep ũ ../ZaborowskiB.csv |sed -r 's/;;/;u U+0303 COMBINING TILDE;/' > ../characters/u0075u0303-tildeU-B.csv
+grep ã ../ZaborowskiB.csv |sed -r 's/;;/;a U+0303 COMBINING TILDE;/' > ../characters/u0061u0303-tildeA-B.csv
+grep m̃ ../ZaborowskiB.csv |sed -r 's/;;/;m U+0303 COMBINING TILDE;/' > ../characters/u006Du0303-tildeM-B.csv
+grep ẽ ../ZaborowskiB.csv |sed -r 's/;;/;e U+0303 COMBINING TILDE;/' > ../characters/u0065u0303-tildeE-B.csv
+grep ĩ ../ZaborowskiB.csv |sed -r 's/;;/;i U+0303 COMBINING TILDE;/' > ../characters/u0069u0303-tildeI-B.csv
+grep r̃ ../ZaborowskiB.csv |sed -r 's/;;/;r U+0303 COMBINING TILDE;/' > ../characters/u0072u0303-tildeR-B.csv
+grep õ ../ZaborowskiB.csv |sed -r 's/;;/;o U+0303 COMBINING TILDE;/' > ../characters/u006Fu0303-tildeO-B.csv
+grep ñ ../ZaborowskiB.csv |sed -r 's/;;/;n U+0303 COMBINING TILDE;/' > ../characters/u006Eu0303-tildeN-B.csv
+grep q̃ ../ZaborowskiB.csv |sed -r 's/;;/;q U+0303 COMBINING TILDE;/' > ../characters/u0071u0303-tildeQ-B.csv
+grep ꝛ̃ ../ZaborowskiB.csv |sed -r 's/;;/;ꝛ U+0303 COMBINING TILDE;/' > ../characters/uA75Bu0303-tildeRr-B.csv
+grep p̃ ../ZaborowskiB.csv |sed -r 's/;;/;p U+0303 COMBINING TILDE;/' > ../characters/u0070u0303-tildeP-B.csv
+grep a̋ ../ZaborowskiB.csv |sed -r 's/;;/;t U+030B COMBINING DOUBLE ACUTE ACCENT;/' > ../characters/u0061u0301-dacute-B.csv
