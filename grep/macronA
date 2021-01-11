@@ -10,3 +10,4 @@ grep ā ../ZaborowskiA.csv |sed -r 's/;;/;a U+0304 COMBINING MACRON;/' > ../cha
 grep r̄ ../ZaborowskiA.csv |sed -r 's/;;/;r U+0304 COMBINING MACRON;/' > ../characters/\u0072u0304-macronA-A.csv
 grep ꝛ̄ ../ZaborowskiA.csv |sed -r 's/;;/;ꝛ U+0304 COMBINING MACRON;/' > ../characters/\uA75Bu0304-macronRr-A.csv
 grep m̄ ../ZaborowskiA.csv |sed -r 's/;;/;m U+0304 COMBINING MACRON;/' > ../characters/\u006Du0304-macronM-A.csv
+grep c̄ ../ZaborowskiA.csv |sed -r 's/;;/;c U+0304 COMBINING MACRON;/' > ../characters/\u0063u0304-macronC-A.csv
